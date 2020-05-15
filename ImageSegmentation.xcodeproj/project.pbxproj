@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,12 +26,9 @@
 		6C1AB50D23707A7B00DFF710 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1AB50123707A7B00DFF710 /* Button.swift */; };
 		6C1AB50F23707B3800DFF710 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C1AB50E23707B3700DFF710 /* DeepLabV3.mlmodel */; };
 		6C5FB41D23796F7700204EA9 /* DrawingSegmentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5FB41C23796F7700204EA9 /* DrawingSegmentationView.swift */; };
-		AF12431DB5C1263BE74B04E3 /* Fritz-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6384C48A1D82C9105307462 /* Fritz-Info.plist */; };
-		BEC07CF4A81B7C07848FCAF4 /* Pods_ImageSegmentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB0E40B0BF58A39F59E9BA9 /* Pods_ImageSegmentation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		32F35A08C839EAEC04F79CF6 /* Pods-ImageSegmentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSegmentation.release.xcconfig"; path = "Target Support Files/Pods-ImageSegmentation/Pods-ImageSegmentation.release.xcconfig"; sourceTree = "<group>"; };
 		6C1AB4DA2370791600DFF710 /* ImageSegmentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSegmentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1AB4DD2370791600DFF710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C1AB4DF2370791600DFF710 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,9 +50,6 @@
 		6C1AB50123707A7B00DFF710 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		6C1AB50E23707B3700DFF710 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
 		6C5FB41C23796F7700204EA9 /* DrawingSegmentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSegmentationView.swift; sourceTree = "<group>"; };
-		8BB0E40B0BF58A39F59E9BA9 /* Pods_ImageSegmentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageSegmentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6384C48A1D82C9105307462 /* Fritz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Fritz-Info.plist"; path = "ImageSegmentation/Fritz-Info.plist"; sourceTree = SOURCE_ROOT; };
-		CE3A42F51D7428A7E22A8C5F /* Pods-ImageSegmentation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSegmentation.debug.xcconfig"; path = "Target Support Files/Pods-ImageSegmentation/Pods-ImageSegmentation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC07CF4A81B7C07848FCAF4 /* Pods_ImageSegmentation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +69,6 @@
 				6C1AB4DC2370791600DFF710 /* ImageSegmentation */,
 				6C1AB4DB2370791600DFF710 /* Products */,
 				81BCF77C031E28849E9E85CD /* Pods */,
-				9024EFABC4C4521E35F79E02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +93,6 @@
 				6C1AB4E62370791C00DFF710 /* Assets.xcassets */,
 				6C1AB4E82370791C00DFF710 /* LaunchScreen.storyboard */,
 				6C1AB4EB2370791C00DFF710 /* Info.plist */,
-				B6384C48A1D82C9105307462 /* Fritz-Info.plist */,
 				6C5FB41C23796F7700204EA9 /* DrawingSegmentationView.swift */,
 			);
 			path = ImageSegmentation;
@@ -159,18 +150,8 @@
 		81BCF77C031E28849E9E85CD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CE3A42F51D7428A7E22A8C5F /* Pods-ImageSegmentation.debug.xcconfig */,
-				32F35A08C839EAEC04F79CF6 /* Pods-ImageSegmentation.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		9024EFABC4C4521E35F79E02 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8BB0E40B0BF58A39F59E9BA9 /* Pods_ImageSegmentation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,11 +161,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C1AB4EE2370791C00DFF710 /* Build configuration list for PBXNativeTarget "ImageSegmentation" */;
 			buildPhases = (
-				28D95D12E199384E57C8B3AF /* [CP] Check Pods Manifest.lock */,
 				6C1AB4D62370791600DFF710 /* Sources */,
 				6C1AB4D72370791600DFF710 /* Frameworks */,
 				6C1AB4D82370791600DFF710 /* Resources */,
-				A37486C115489CD8810ED802 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,53 +214,10 @@
 			files = (
 				6C1AB4EA2370791C00DFF710 /* LaunchScreen.storyboard in Resources */,
 				6C1AB4E72370791C00DFF710 /* Assets.xcassets in Resources */,
-				AF12431DB5C1263BE74B04E3 /* Fritz-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		28D95D12E199384E57C8B3AF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ImageSegmentation-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A37486C115489CD8810ED802 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ImageSegmentation/Pods-ImageSegmentation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ImageSegmentation/Pods-ImageSegmentation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageSegmentation/Pods-ImageSegmentation-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C1AB4D62370791600DFF710 /* Sources */ = {
@@ -438,7 +374,6 @@
 		};
 		6C1AB4EF2370791C00DFF710 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE3A42F51D7428A7E22A8C5F /* Pods-ImageSegmentation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +392,6 @@
 		};
 		6C1AB4F02370791C00DFF710 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32F35A08C839EAEC04F79CF6 /* Pods-ImageSegmentation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
